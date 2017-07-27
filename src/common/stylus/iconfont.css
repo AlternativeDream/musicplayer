@@ -1,0 +1,103 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1500966405836'); /* IE9*/
+  src: url('iconfont.eot?t=1500966405836#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.ttf?t=1500966405836') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1500966405836#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before { content: "\e625"; } /* 搜索 */
+
+.icon-fanhui:before { content: "\e606"; } /* 返回 */
+
+.icon-maikefeng:before { content: "\e65f"; } /* 麦克风 */
+
+.icon-system-account:before { content: "\e614"; } /* 账号 */
+
+.icon-yinyue:before { content: "\e680"; } /* 音乐 */
+
+.icon-goto:before { content: "\e610"; } /* 前进 */
+
+.icon-maikefeng1:before { content: "\e71b"; } /* 麦克风 */
+
+.icon-diantai_changgui:before { content: "\e601"; } /* FM */
+
+.icon-zhuzhuangtu:before { content: "\e6b1"; } /* 柱状图 */
+
+.icon-icon_bofangzhong:before { content: "\e612"; } /* 播放中 */
+
+.icon-zhanghao:before { content: "\e648"; } /* 账号 */
+
+.icon-wangyiyunyinle:before { content: "\e662"; } /* 网易云音乐 */
+
+.icon-wodegedan:before { content: "\e74a"; } /* 歌单 */
+
+.icon-fenlei:before { content: "\e619"; } /* 分类 */
+
+.icon-shuhuaban1fuben01:before { content: "\e635"; } /* 书本 */
+
+.icon-maikefeng2:before { content: "\e60e"; } /* 麦克风 右斜 */
+
+.icon-naiping:before { content: "\e607"; } /* 奶瓶 */
+
+.icon-yingyu:before { content: "\e6e8"; } /* 英语 */
+
+.icon-lishihangcheng:before { content: "\e8d5"; } /* 历史 */
+
+.icon-shuju:before { content: "\e6b2"; } /* 数据 */
+
+.icon-icons64x6414:before { content: "\e64d"; } /* 灯泡 */
+
+.icon-pinglun3:before { content: "\e64c"; } /* 评论 */
+
+.icon-huiyuanzhuanqu:before { content: "\e679"; } /* 会员 */
+
+.icon-heart:before { content: "\e605"; } /* 爱心 */
+
+.icon-naozhong:before { content: "\e615"; } /* 闹钟 */
+
+.icon-shezhi:before { content: "\e604"; } /* 设置 */
+
+.icon-jia:before { content: "\e9a5"; } /* 添加 */
+
+.icon-download:before { content: "\e608"; } /* 下载 */
+
+.icon-yifu:before { content: "\e603"; } /* 皮肤 */
+
+.icon-xia:before { content: "\e60c"; } /* 下 */
+
+.icon-fuwu:before { content: "\e61c"; } /* 汽车 */
+
+.icon-clock:before { content: "\e649"; } /* 最近播放 */
+
+.icon-geshou:before { content: "\e61b"; } /* 歌手 */
+
+.icon-mv-play:before { content: "\e602"; } /* MV */
+
+.icon-zhuanfa:before { content: "\e627"; } /* 转发 */
+
+.icon-xiaoxi:before { content: "\e63b"; } /* 消息 */
+
+.icon-dengpaok:before { content: "\e6e4"; } /* 夜间模式 */
+
+.icon-gouwuche:before { content: "\e69c"; } /* 购物车 */
+
+.icon-xiaoxi3:before { content: "\e72e"; } /* 消息盒子 */
+
+.icon-jiahaoyou:before { content: "\e688"; } /* 添加好友 */
+
+.icon-jifen:before { content: "\e661"; } /* 签到 */
+
+.icon-bi:before { content: "\e62f"; } /* 笔 */
+
+.icon-zan1:before { content: "\e61a"; } /* 赞 */
+
+.icon-pinglun1:before { content: "\e600"; } /* 评论 */
