@@ -2,13 +2,17 @@
     <div class="header">
         <span class="more">更多</span>
         <span class="title">我的音乐</span>
-        <i class="iconfont">&#xe612;</i>
+        <i class="iconfont" v-on:click="toplayer()">&#xe612;</i>
     </div>
 </template>
 
 <script>
 export default {
-
+    methods: {
+        toplayer () {
+            this.$router.push({ path: '/musicplayer'});
+        }
+    }
 }
 </script>
 

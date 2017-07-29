@@ -1,11 +1,8 @@
 <template>
     <div class="header">
-        <i class="iconfont">&#xe71b;</i>
-        <div class="search">
-            <i class="iconfont">&#xe625;</i>
-            <input type="text" placeholder="搜索音乐、歌词、电台" />
-        </div>
-        <i class="iconfont" @click='toplayer()' >&#xe612;</i>
+        <i class="iconfont"></i>
+        <span class="title">账号</span>
+        <i class="iconfont" v-on:click="toplayer()" >&#xe612;</i>
     </div>
 </template>
 
@@ -28,6 +25,7 @@ export default {
 
 .header {
     display: flex;
+    width: 100%;
     height: var(--header-height);
     background: #E70000;
     justify-content: space-between;
@@ -38,6 +36,16 @@ export default {
     height: 100%;
     width: 60px;
     font-size: 24px;
+    color: #FFF;
+    text-align: center;
+    line-height: var(--header-height);
+}
+
+.header .more {
+    display: inline-block;
+    height: 100%;
+    width: 50px;
+    font-size: 14px;
     color: #FFF;
     text-align: center;
     line-height: var(--header-height);
@@ -67,6 +75,37 @@ export default {
     border-radius: 6px;
     border: none;
     text-align: center;
+}
+
+.header .title {
+    display: inline-block;
+    height: 100%;
+    line-height: var(--header-height);
+    color: #FFF;
+    font-size: 18px;
+}
+
+.header .local {
+    width: 140px;
+    height: 30px;
+    margin-top: 5px;
+    border: 2px  solid  #FFF;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+}
+
+.header .local span {
+    display: inline-block;
+    width: 50%;
+    color: #FFF;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.header .local .onfollow {
+    background: #FFF;
+    color: #E70000;
 }
 
 </style>

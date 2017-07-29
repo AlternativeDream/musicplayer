@@ -6,6 +6,9 @@ import songsheet from '@/components/content/contentoptions/songsheet'
 import fm from '@/components/content/contentoptions/fm'
 import rankinglist from '@/components/content/contentoptions/rankinglist'
 import mymusic from '@/components/mymusic/mymusic'
+import friends from '@/components/friends/friends'
+import accound from '@/components/accound/accound'
+import musicplayer from '@/components/musicplayer/musicplayer'
 
 Vue.use(Router)
 
@@ -48,6 +51,21 @@ export default new Router({
       path: '/mymusic',
       name: 'mymusic',
       component: mymusic
+    },
+    {
+      path: '/friends',
+      name: 'friends',
+      component: friends
+    },
+    {
+      path: '/accound',
+      name: 'accound',
+      component: accound
+    },
+    {
+      path: '/musicplayer',
+      name: 'musicplayer',
+      component: musicplayer
     }
   ]
 })

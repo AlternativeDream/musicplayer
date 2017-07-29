@@ -1,6 +1,6 @@
 # musicplayer
 
-> music player
+> 基于vue + webpack 的仿网易云音乐
 
 ## Build Setup
 

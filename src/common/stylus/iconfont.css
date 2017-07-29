@@ -101,3 +101,26 @@
 .icon-zan1:before { content: "\e61a"; } /* 赞 */
 
 .icon-pinglun1:before { content: "\e600"; } /* 评论 */
+
+.icon-xiayishou:before { content: "\e613"; } /* 下一首 */
+
+.icon-shangyishou:before { content: "\e60b"; } /* 上一首 */
+
+.icon-player-play:before { content: "\e609"; } /* 播放 */
+
+.icon-danquxunhuan:before { content: "\e60f"; } /* 单曲循环 */
+
+.icon-liebiaoxunhuan:before { content: "\e62b"; } /* 列表循环 */
+
+.icon-fanhui1:before { content: "\e67f"; } /* 返回 */
+
+.icon-liebiao:before { content: "\e60d"; } /* 列表 */
+
+.icon-gengduo:before { content: "\e63f"; } /* 竖 跟多 */
+
+.icon-suiji:before { content: "\e62a"; } /* 随机 */
+
+.icon-zanting:before { content: "\e672"; } /* 暂停 */
+
+.icon-fenxiang:before { content: "\e630"; } /* 分享 */
+

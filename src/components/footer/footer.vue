@@ -12,14 +12,14 @@
                 <p>我的音乐</p>
             </router-link>
         </div>
-        <div class="switch-page" v-bind:class="{ onchoose: isSelect.friend }" v-on:click="switchPage(friend)" >
-            <router-link to="">
+        <div class="switch-page" v-bind:class="{ onchoose: isSelect.friend }" v-on:click="switchPage('friend')" >
+            <router-link to="/friends">
                 <i class="iconfont">&#xe648;</i>
                 <p>朋友</p>
             </router-link>
         </div>
-        <div class="switch-page" v-bind:class="{ onchoose: isSelect.accound }" v-on:click="switchPage(accound)" >
-            <router-link to="">
+        <div class="switch-page" v-bind:class="{ onchoose: isSelect.accound }" v-on:click="switchPage('accound')" >
+            <router-link to="/accound">
                 <i class="iconfont">&#xe614;</i>
                 <p>账号</p>
             </router-link>
